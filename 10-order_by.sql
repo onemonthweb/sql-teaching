@@ -1,5 +1,5 @@
 SELECT
-    user_id
+    user_id,
     COUNT(*) AS tweet_count
 FROM
     tweets
